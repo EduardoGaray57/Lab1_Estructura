@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lista Circular Enlazada</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+
+    <h1>Lista Circular Enlazada</h1>
+
+    <div class="controls">
+        <input type="text" id="valueInput" placeholder="Valor del nodo">
+        <button id="addBtn">Insertar</button>
+
+        <label>
+            Velocidad
+            <input type="range" id="speed" min="300" max="2000" value="1000">
+        </label>
+
+        <button id="stepBtn">Paso a paso</button>
+    </div>
+
+    <div id="status"></div>
+    <div id="list-container"></div>
+
+    <p>🔁 El último nodo apunta al primero</p>
+
+    <script type="module" src="../src/view.js"></script>
+</body>
+
+</html>

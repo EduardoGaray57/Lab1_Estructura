@@ -5,7 +5,7 @@ class Node {
     }
 }
 
-class CircularLinkedList {
+export default class CircularLinkedList {
     constructor() {
         this.first = null;
         this.last = null;
@@ -113,4 +113,3 @@ class CircularLinkedList {
     }
 }
 
-module.exports = CircularLinkedList;
